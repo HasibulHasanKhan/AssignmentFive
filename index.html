@@ -4,23 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donation Page</title>
-    <!-- google font -->
+ 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <!-- css link -->
+
     <link rel="stylesheet" href="styles/style.css" />
-    <!-- tailwind and daisyui link -->
+    
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
       rel="stylesheet"
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- font awsome cdn -->
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -47,7 +47,7 @@
   </head>
   <body class="font-lexend">
     <header class="sticky top-0 z-50">
-      <!-- nav div -->
+      <!-- =====navber div===== -->
       <div class="bg-[#F9F7F3]">
         <nav
           class="w-4/5 flex md:flex-row flex-col items-center mx-auto md:justify-between py-4"
@@ -79,7 +79,7 @@
           </div>
         </nav>
       </div>
-      <!-- buttons div -->
+      <!-- =====buttons div======= -->
       <div
         class="btn-container mx-auto flex gap-4 justify-center py-5 border-b-2 border-[#11111128]"
       >
@@ -102,19 +102,19 @@
       </div>
     </header>
     <main class="mt-5 mb-10">
-      <!-- donation card sec -->
-      <section id="donation-sec" class="w-4/5 mx-auto space-y-4">
-        <!-- card1 -->
+      <!-- =======donation card secton ============-->
+      <sect id="donation-sec" class="w-4/5 mx-auto space-y-4">
+     
         <div
           class="flex flex-col md:flex-row gap-4 border-2 border-[#111111B3] p-4 rounded-xl"
         >
-          <!-- img div left -->
+        
           <div class="w-full md:w-2/4">
             <img src="./assets/noakhali.png" alt="" />
           </div>
-          <!-- text-div right -->
+        
           <div class="w-full md:w-2/4 space-y-5">
-            <!-- right 1 -->
+        
             <button
               class="flex items-center gap-2 rounded-lg px-4 py-2 bg-[#1111110D]"
             >
@@ -127,7 +127,7 @@
               </p>
               <p class="font-semibold text-xl text-[#111111B3]">BDT</p>
             </button>
-            <!-- right 2 -->
+         
             <div class="space-y-2">
               <h3
                 id="noakhali-title"
@@ -144,7 +144,7 @@
                 the lives of those in need.
               </p>
             </div>
-            <!-- right3 -->
+    
             <div class="flex flex-col gap-5">
               <input
                 id="noakhali-input-value"
@@ -161,18 +161,17 @@
             </div>
           </div>
         </div>
-
-        <!-- card2 -->
+                <!--======2nd card-->
         <div
           class="flex flex-col md:flex-row gap-4 border-2 border-[#111111B3] p-4 rounded-xl"
         >
-          <!-- img div left -->
+     
           <div class="w-full md:w-2/4">
             <img src="./assets/feni.png" alt="" />
           </div>
-          <!-- text-div right -->
+       
           <div class="w-full md:w-2/4 space-y-5">
-            <!-- right 1 -->
+         
             <button
               class="flex items-center gap-2 rounded-lg px-4 py-2 bg-[#1111110D]"
             >
@@ -185,7 +184,7 @@
               </p>
               <p class="font-semibold text-xl text-[#111111B3]">BDT</p>
             </button>
-            <!-- right 2 -->
+          
             <div class="space-y-2">
               <h3 id="feni-title" class="md:text-xl font-extrabold text-black">
                 Donate for Flood Relief in Feni,Bangladesh
@@ -201,7 +200,7 @@
                 to assist those in urgent need.
               </p>
             </div>
-            <!-- right3 -->
+           
             <div class="flex flex-col gap-5">
               <input
                 id="feni-input-value"
@@ -219,17 +218,17 @@
           </div>
         </div>
 
-        <!-- card3 -->
+        <!-- third card -->
         <div
           class="flex flex-col md:flex-row gap-4 border-2 border-[#111111B3] p-4 rounded-xl"
         >
-          <!-- img div left -->
+   
           <div class="w-full md:w-2/4">
             <img src="./assets/quota-protest.png" alt="" />
           </div>
-          <!-- text-div right -->
+     
           <div class="w-full md:w-2/4 space-y-5">
-            <!-- right 1 -->
+          
             <button
               class="flex items-center gap-2 rounded-lg px-4 py-2 bg-[#1111110D]"
             >
@@ -242,7 +241,7 @@
               </p>
               <p class="font-semibold text-xl text-[#111111B3]">BDT</p>
             </button>
-            <!-- right 2 -->
+          
             <div class="space-y-2">
               <h3 id="quota-title" class="md:text-xl font-extrabold text-black">
                 Aid for Injured in the Quota Movement
@@ -259,7 +258,7 @@
                 brave individuals in their time of need.
               </p>
             </div>
-            <!-- right3 -->
+         
             <div class="flex flex-col gap-5">
               <input
                 id="quota-input-value"
@@ -278,13 +277,13 @@
         </div>
       </section>
 
-      <!-- history section -->
+      <!-- ====================history section ==============-->
       <section id="history-sec" class="mt-10 w-4/5 mx-auto hidden">
         <div id="history-div" class="flex flex-col gap-4"></div>
       </section>
     </main>
 
-    <!-- modal -->
+    <!--==================== modal============= -->
     <dialog id="my_modal" class="modal">
       <div class="modal-box flex gap-2 flex-col items-center text-center">
         <h3 class="text-3xl font-bold text-black">Congrates!</h3>
@@ -299,7 +298,7 @@
       </div>
     </dialog>
 
-    <!-- js connect -->
+    <!-- ============js link up =====================-->
     <script src="./js/handle.js"></script>
     <script src="./js/utilities.js"></script>
   </body>
